@@ -7,7 +7,7 @@ export const data = [
     name: "Personal Portfolio",
     image: WorkIm,
     github: "https://github.com/0codezone/portfolio",
-    live: "",
+    live: "https://portfolio-75b44c.netlify.app/",
   },
   {
     id: 2,
@@ -21,14 +21,14 @@ export const data = [
     name: " Disney UI Clone",
     image: WorkIm,
     github: "https://github.com/0codezone/disneyUI-clone",
-    live: "",
+    live: "https://tmdbmovies-ad22f4.netlify.app/login",
   },
   {
     id: 4,
     name: " Google Search Clone",
     image: RealEst,
     github: "https://github.com/0codezone/google_search-clone",
-    live: "",
+    live: "https://websearch-6de58c.netlify.app/search",
   },
   {
     id: 5,

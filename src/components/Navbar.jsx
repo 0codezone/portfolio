@@ -98,12 +98,15 @@ const Navbar = () => {
         <div className="w-full md:hidden">
           <ul className="flex justify-center gap-2">
             <li className=" bg-blue-800 p-2">
-              <a href="#" className="">
+              <a
+                href="https://www.linkedin.com/in/mohit-darji-b0991a20b/"
+                className=""
+              >
                 <FaLinkedin size={30} />
               </a>
             </li>
             <li className=" bg-black p-2">
-              <a href="#" className="">
+              <a href="https://github.com/0codezone" className="">
                 <FaGithub size={30} />
               </a>
             </li>
@@ -113,7 +116,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className=" bg-pink-700 p-2">
-              <a href="#" className="">
+              <a href="mailto:mohittailor@gmail.com" className="link">
                 <HiMail size={30} />
               </a>
             </li>
@@ -124,12 +127,18 @@ const Navbar = () => {
       <div className="hidden lg:flex flex-col fixed top-[35%] left-0">
         <ul className="w-[150px]">
           <li className="w-full ml-[-100px] hover:ml-0 duration-500 py-1 bg-blue-800">
-            <a href="#" className="flex justify-between items-center">
+            <a
+              href="https://www.linkedin.com/in/mohit-darji-b0991a20b/"
+              className="flex justify-between items-center"
+            >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-full ml-[-100px]  hover:ml-0 duration-500 py-1 bg-black">
-            <a href="#" className="flex justify-between items-center">
+            <a
+              href="https://github.com/0codezone"
+              className="flex justify-between items-center"
+            >
               Github <FaGithub size={30} />
             </a>
           </li>
@@ -139,7 +148,10 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-full ml-[-100px] hover:ml-0 duration-500 py-1 bg-pink-700">
-            <a href="#" className="flex justify-between items-center">
+            <a
+              href="mailto:mohittailor@gmail.com"
+              className="flex justify-between items-center"
+            >
               Gmail <HiMail size={30} />
             </a>
           </li>

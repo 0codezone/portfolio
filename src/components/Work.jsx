@@ -9,7 +9,7 @@ const Work = () => {
           <h1 className="text-3xl inline border-b-4 border-[#7dd557] ">Work</h1>
           <p className="py-4">// Projects I've worked on</p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 py-4">
           {data.map((item) => (
             <div key={item.id} className="rounded-lg cursor-pointer relative">
               <img src={item.image} alt="html" className="rounded-lg " />
