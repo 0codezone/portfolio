@@ -1,60 +1,66 @@
-import WorkIm from "../assets/projects/workImg.jpeg";
-import RealEst from "../assets/projects/realestate.jpg";
+import portfolio from "../assets/projects/portfolio.png";
+import beach from "../assets/projects/beach.png";
+import tmdb from "../assets/projects/tmdbmovie.png";
+import googleSearch from "../assets/projects/google-search.png";
+import blog from "../assets/projects/blog.png";
+import nikeShoes from "../assets/projects/nikShoes.png";
+import chkraui from "../assets/projects/chkraui.png";
+import afs from "../assets/projects/afs.png";
 
 export const data = [
   {
     id: 1,
     name: "Personal Portfolio",
-    image: WorkIm,
+    image: portfolio,
     github: "https://github.com/0codezone/portfolio",
     live: "https://portfolio-75b44c.netlify.app/",
   },
   {
     id: 2,
     name: "Landing Page Maldives",
-    image: RealEst,
+    image: beach,
     github: "https://github.com/0codezone/landing_page-maldives",
     live: "https://0codezone.github.io/landing_page-maldives/",
   },
   {
     id: 3,
     name: " Disney UI Clone",
-    image: WorkIm,
+    image: tmdb,
     github: "https://github.com/0codezone/disneyUI-clone",
     live: "https://tmdbmovies-ad22f4.netlify.app/login",
   },
   {
     id: 4,
     name: " Google Search Clone",
-    image: RealEst,
+    image: googleSearch,
     github: "https://github.com/0codezone/google_search-clone",
     live: "https://websearch-6de58c.netlify.app/search",
   },
   {
     id: 5,
     name: " Nike Landing Page Clone",
-    image: RealEst,
+    image: nikeShoes,
     github: "https://github.com/0codezone/landing_page-nike",
     live: "https://landingpage-nike-551212.netlify.app/",
   },
   {
     id: 6,
     name: " ckraUI-React-Project ",
-    image: RealEst,
+    image: chkraui,
     github: "https://github.com/0codezone/React-ChakraUI",
     live: "https://0codezone.github.io/React-ChakraUI/",
   },
   {
     id: 7,
     name: "Blog",
-    image: RealEst,
+    image: blog,
     github: "https://github.com/0codezone/Blog",
     live: "https://0codezone-blog-app.netlify.app/",
   },
   {
     id: 8,
     name: " AFS-site ",
-    image: RealEst,
+    image: afs,
     github: "https://github.com/0codezone/AFS-Final",
     live: "https://0codezone.github.io/AFS-Final/",
   },
